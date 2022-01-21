@@ -4,8 +4,8 @@ import * as util from '../../store/utils';
 import FastImage from 'react-native-fast-image';
 import Swiper from "react-native-swiper";
 const DetailScreen = ({ route, navigation }) => {
+  
   const { item } = route.params;
-
   console.log('item in details screen', item)
     return (
     <SafeAreaView style={styles.container}>
